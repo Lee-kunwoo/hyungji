@@ -109,8 +109,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 15%;
-  height: 100%;
-  z-index: 500;  
+  height: 100%;   
 }
 .icon > li:hover {
   cursor: pointer;
@@ -136,6 +135,7 @@ header {
   background-color: red;
   border-radius: 10px;
   color: #fff;
+  z-index: 10;
 }
 .lang.on {
   display: block;
@@ -146,8 +146,8 @@ header {
 /* xi-share-alt-o */
 .xi-share-alt-o {
   font-size: 24px;
-  font-weight: bolder;
-  z-index: 500;
+  font-weight: bolder; 
+  z-index: 1000; 
 }
 .xi-share-alt-o:hover {
   color: red;
@@ -156,7 +156,7 @@ header {
 .xi-bars {
   font-size: 24px;
   font-weight: bolder;
-  z-index: 500;
+  z-index: 1000;
 }
 .xi-arrow-down {
   margin-left: 10px;
