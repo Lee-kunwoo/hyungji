@@ -147,6 +147,7 @@ header {
 .xi-share-alt-o {
   font-size: 24px;
   font-weight: bolder;
+  z-index: 500;
 }
 .xi-share-alt-o:hover {
   color: red;
@@ -155,6 +156,7 @@ header {
 .xi-bars {
   font-size: 24px;
   font-weight: bolder;
+  z-index: 500;
 }
 .xi-arrow-down {
   margin-left: 10px;
