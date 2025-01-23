@@ -37,7 +37,7 @@ header {
   height: 90px;
   padding: 0 48px;
   background-color: #fff;
-  z-index: 500;  
+  z-index: 10;  
 }
 .headerCover {
   position: absolute;
@@ -45,10 +45,11 @@ header {
   width: 100%;
   height: 90px;
   transition: 0.5s;
+  z-index: 10;
 }
 .headerCover.on {
   height: 300px;
-  z-index: 100;
+  z-index: 70;
 }
 /* main menu */
 .menu {
@@ -58,7 +59,7 @@ header {
   align-items: center;
   width: 70%;
   height: 100%;
-  z-index: 500; 
+  z-index: 700; 
 }
 .menu > li > a {
   color: #000;
@@ -92,7 +93,7 @@ header {
 /* logo */
 .logo {
   width: 15%;
-  z-index: 500;  
+  z-index: 700;  
 }
 .topLogo {
   width: 165px;
@@ -109,7 +110,8 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 15%;
-  height: 100%;   
+  height: 100%;  
+  z-index: 1000;
 }
 .icon > li:hover {
   cursor: pointer;
@@ -129,13 +131,13 @@ header {
 .lang {
   display: none;
   position: absolute;
-  top: 70px;
+  top: 90px;
   left: 0px;
   padding: 10px 27px;
   background-color: red;
   border-radius: 10px;
   color: #fff;
-  z-index: 10;
+  z-index: 500;
 }
 .lang.on {
   display: block;
@@ -147,7 +149,7 @@ header {
 .xi-share-alt-o {
   font-size: 24px;
   font-weight: bolder; 
-  z-index: 1000; 
+  z-index: 1100; 
 }
 .xi-share-alt-o:hover {
   color: red;
@@ -156,7 +158,7 @@ header {
 .xi-bars {
   font-size: 24px;
   font-weight: bolder;
-  z-index: 1000;
+  z-index: 11000;
 }
 .xi-arrow-down {
   margin-left: 10px;
