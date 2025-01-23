@@ -145,19 +145,27 @@ header {
 .lang > li:not(:last-child) {
   margin-bottom: 10px;
 }
-/* xi-share-alt-o */
-.xi-share-alt-o {
-  font-size: 24px;
-  font-weight: bolder; 
+/* share */
+.share {
+  width: 50px;
+  height: 50px;
+  background-image: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
   z-index: 1100; 
 }
-.xi-share-alt-o:hover {
+.share:hover {
   color: red;
 }
-/* xi-bars */
-.xi-bars {
-  font-size: 24px;
-  font-weight: bolder;
+/* sandwich */
+.sandwich {
+  width: 50px;
+  height: 60px;
+  background-image: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
   z-index: 11000;
 }
 .xi-arrow-down {

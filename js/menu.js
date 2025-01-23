@@ -4,7 +4,7 @@ let menuList = document.querySelectorAll(".menuList");
 let xiArrowDown = document.querySelector(".icon > li:nth-child(1)");
 let xiArrowDownIcon = document.querySelector(".xi-arrow-down");
 let lang = document.querySelector(".lang");
-let xiBars = document.querySelector(".xi-bars");
+let xiBars = document.querySelector(".sandwich");
 let menuModal = document.querySelector(".menuModal");
 let xiClose = document.querySelector(".xi-close");
 
